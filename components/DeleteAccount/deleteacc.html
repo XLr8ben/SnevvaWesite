@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Delete Account — Snevva</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/components/DeleteAccount/deletestyles.css"/>
+<link rel="stylesheet" href="/components/shared.css"/>
+</head>
+<body>
+
+<!-- NAV (injected by components/loader.js) -->
+<div id="header-placeholder"></div>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="hero-blob blob-r"></div>
+  <div class="hero-blob blob-l"></div>
+  <div class="container">
+    <div class="page-hero-inner">
+      <span class="pill-tag danger fade-up">⚠️ Account Management</span>
+      <h1 class="fade-up delay-1">Delete Your <span class="gradient-text">Account</span></h1>
+      <p class="fade-up delay-2">We're sorry to see you go. Please read the information below carefully before submitting your deletion request — this action is permanent and cannot be undone.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN -->
+<div class="container">
+  <div class="main-layout">
+
+    <!-- LEFT: INFO COLUMN -->
+    <div class="content-col">
+
+      <!-- WHAT GETS DELETED -->
+      <div class="info-card fade-up">
+        <div class="info-card-header">
+          <div class="info-card-icon" style="background:rgba(255,81,81,0.10);">🗑️</div>
+          <h2>What gets deleted</h2>
+        </div>
+        <p>When you delete your Snevva account, the following data is <strong>permanently removed</strong> from our systems. This cannot be reversed.</p>
+        <div class="deletion-items">
+          <div class="deletion-item gone">
+            <div class="deletion-item-icon">👤</div>
+            <span class="deletion-item-label">Account profile &amp; personal info</span>
+            <span class="deletion-item-badge">Deleted</span>
+          </div>
+          <div class="deletion-item gone">
+            <div class="deletion-item-icon">❤️</div>
+            <span class="deletion-item-label">All health metrics &amp; logs</span>
+            <span class="deletion-item-badge">Deleted</span>
+          </div>
+          <div class="deletion-item gone">
+            <div class="deletion-item-icon">😴</div>
+            <span class="deletion-item-label">Sleep, nutrition &amp; mood history</span>
+            <span class="deletion-item-badge">Deleted</span>
+          </div>
+          <div class="deletion-item gone">
+            <div class="deletion-item-icon">🌸</div>
+            <span class="deletion-item-label">Cycle &amp; women's health data</span>
+            <span class="deletion-item-badge">Deleted</span>
+          </div>
+          <div class="deletion-item gone">
+            <div class="deletion-item-icon">🤖</div>
+            <span class="deletion-item-label">AI insights &amp; personalisation</span>
+            <span class="deletion-item-badge">Deleted</span>
+          </div>
+          <div class="deletion-item kept">
+            <div class="deletion-item-icon">🧾</div>
+            <span class="deletion-item-label">Transaction &amp; billing records</span>
+            <span class="deletion-item-badge">Kept (legal)</span>
+          </div>
+          <div class="deletion-item kept">
+            <div class="deletion-item-icon">📋</div>
+            <span class="deletion-item-label">Anonymised aggregate analytics</span>
+            <span class="deletion-item-badge">Kept (anon)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- TIMELINE -->
+      <div class="info-card fade-up">
+        <div class="info-card-header">
+          <div class="info-card-icon" style="background:rgba(169,91,255,0.10);">⏱️</div>
+          <h2>Deletion timeline</h2>
+        </div>
+        <p>After your request is submitted, here's what happens:</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot">1</div>
+            <div class="timeline-body">
+              <h4>Confirmation email sent immediately</h4>
+              <p>We'll email a confirmation to your registered address. Your account is deactivated and no longer accessible.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot">2</div>
+            <div class="timeline-body">
+              <h4>30-day grace period</h4>
+              <p>Your data is preserved for 30 days in case you change your mind. Log back in to cancel the deletion anytime during this window.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot">3</div>
+            <div class="timeline-body">
+              <h4>Permanent deletion on Day 30</h4>
+              <p>All personal health data is permanently and irreversibly removed from our primary servers.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot">4</div>
+            <div class="timeline-body">
+              <h4>Backup purge within 90 days</h4>
+              <p>Any remaining copies in encrypted backup systems are also purged within 90 days of the deletion request.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ALTERNATIVES -->
+      <div class="info-card fade-up">
+        <div class="info-card-header">
+          <div class="info-card-icon" style="background:rgba(141,220,82,0.12);">💡</div>
+          <h2>Before you go — alternatives</h2>
+        </div>
+        <p>Account deletion is permanent. Consider one of these options first:</p>
+        <div class="alt-grid">
+          <a href="#" class="alt-card">
+            <div class="alt-card-icon">⏸️</div>
+            <h4>Pause your account</h4>
+            <p>Stop all syncing and notifications without losing your data.</p>
+          </a>
+          <a href="#" class="alt-card">
+            <div class="alt-card-icon">📤</div>
+            <h4>Export your data</h4>
+            <p>Download a full copy of your health history before leaving.</p>
+          </a>
+          <a href="#" class="alt-card">
+            <div class="alt-card-icon">🔔</div>
+            <h4>Manage notifications</h4>
+            <p>Too many reminders? Customise or turn them all off easily.</p>
+          </a>
+          <a href="mailto:support@snevva.com" class="alt-card">
+            <div class="alt-card-icon">💬</div>
+            <h4>Talk to support</h4>
+            <p>We'd love to help fix whatever's not working for you.</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT: FORM COLUMN -->
+    <div class="form-col fade-up delay-1">
+      <div class="form-card">
+        <div class="form-card-header">
+          <div class="form-card-header-icon">⚠️</div>
+          <div>
+            <h3>Deletion Request</h3>
+            <p>Complete all steps to proceed</p>
+          </div>
+        </div>
+
+        <div class="form-body">
+
+          <!-- STEP TABS -->
+          <div class="steps-nav" id="stepsTabs">
+            <div class="step-tab active" id="tab-1">
+              <div class="step-num-sm">1</div>
+              <div class="step-tab-label">Verify</div>
+            </div>
+            <div class="step-tab" id="tab-2">
+              <div class="step-num-sm">2</div>
+              <div class="step-tab-label">Reason</div>
+            </div>
+            <div class="step-tab" id="tab-3">
+              <div class="step-num-sm">3</div>
+              <div class="step-tab-label">Confirm</div>
+            </div>
+          </div>
+
+          <!-- STEP 1: VERIFY -->
+          <div class="form-step active" id="step-1">
+            <div class="highlight-box info">
+              <div class="hbox-icon">ℹ️</div>
+              <div class="hbox-body">Enter your account credentials to verify your identity before requesting deletion.</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email address <span>*</span></label>
+              <input type="email" id="email" class="form-input" placeholder="you@email.com" autocomplete="email"/>
+              <span class="form-hint">The email linked to your Snevva account</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Password <span>*</span></label>
+              <input type="password" id="password" class="form-input" placeholder="Your current password" autocomplete="current-password"/>
+            </div>
+            <div class="btn-row">
+              <button class="btn-primary-full" onclick="goStep(2)">Continue →</button>
+            </div>
+            <p style="font-size:12px;color:var(--text-muted);text-align:center;">Forgot your password? <a href="#" style="color:var(--color-primary);font-weight:600;">Reset it here</a></p>
+          </div>
+
+          <!-- STEP 2: REASON -->
+          <div class="form-step" id="step-2">
+            <div class="form-group">
+              <label class="form-label">Why are you leaving? <span>*</span></label>
+              <div class="reason-list" id="reasonList">
+                <input type="radio" name="reason" id="r1" value="privacy" class="reason-option"/>
+                <label for="r1" class="reason-label"><span class="reason-icon">🔒</span> Privacy concerns</label>
+
+                <input type="radio" name="reason" id="r2" value="notuseful" class="reason-option"/>
+                <label for="r2" class="reason-label"><span class="reason-icon">🤷</span> Not useful for me</label>
+
+                <input type="radio" name="reason" id="r3" value="switching" class="reason-option"/>
+                <label for="r3" class="reason-label"><span class="reason-icon">🔄</span> Switching to another app</label>
+
+                <input type="radio" name="reason" id="r4" value="toomany" class="reason-option"/>
+                <label for="r4" class="reason-label"><span class="reason-icon">🔔</span> Too many notifications</label>
+
+                <input type="radio" name="reason" id="r5" value="other" class="reason-option"/>
+                <label for="r5" class="reason-label"><span class="reason-icon">💬</span> Other reason</label>
+              </div>
+            </div>
+            <div class="form-group" id="otherGroup" style="display:none;">
+              <label class="form-label">Tell us more (optional)</label>
+              <textarea class="form-textarea" placeholder="We read every response and use it to improve Snevva…"></textarea>
+            </div>
+            <div class="btn-row">
+              <button class="btn-ghost" onclick="goStep(1)">← Back</button>
+              <button class="btn-primary-full" onclick="goStep(3)">Continue →</button>
+            </div>
+          </div>
+
+          <!-- STEP 3: CONFIRM -->
+          <div class="form-step" id="step-3">
+            <div class="highlight-box danger">
+              <div class="hbox-icon">🚨</div>
+              <div class="hbox-body"><strong>This is irreversible.</strong> Your account and all health data will be permanently deleted after a 30-day grace period.</div>
+            </div>
+            <div class="confirm-word">
+              <p>To confirm, type the following word exactly:</p>
+              <code>DELETE</code>
+            </div>
+            <div class="form-group">
+              <input type="text" id="confirmInput" class="form-input" placeholder="Type DELETE to confirm" oninput="checkConfirm()"/>
+            </div>
+            <div class="check-group">
+              <input type="checkbox" id="agreeCheck" class="check-input" onchange="checkConfirm()"/>
+              <label for="agreeCheck" class="check-label">I understand this action is permanent. I have read the <a href="privacy-policy.html" target="_blank">Privacy Policy</a> and understand what data will be deleted.</label>
+            </div>
+            <div class="check-group">
+              <input type="checkbox" id="exportCheck" class="check-input" onchange="checkConfirm()"/>
+              <label for="exportCheck" class="check-label">I have exported or no longer need my health data from Snevva.</label>
+            </div>
+            <div class="btn-row">
+              <button class="btn-ghost" onclick="goStep(2)">← Back</button>
+              <button class="btn-delete-full" id="deleteBtn" disabled onclick="submitDeletion()">
+                🗑️ Delete Account
+              </button>
+            </div>
+          </div>
+
+          <!-- SUCCESS STATE -->
+          <div class="success-state" id="successState">
+            <div class="success-icon-wrap">✓</div>
+            <h3>Request Submitted</h3>
+            <p>A confirmation email has been sent to your address. Your account has been deactivated and will be permanently deleted in 30 days.</p>
+            <div class="success-timeline">
+              <div class="suc-row"><span>Account deactivated</span><span style="color:var(--success);">Now</span></div>
+              <div class="suc-row"><span>Grace period ends</span><span>30 days</span></div>
+              <div class="suc-row"><span>Permanent deletion</span><span>Day 30</span></div>
+              <div class="suc-row"><span>Backup purge</span><span>Within 90 days</span></div>
+            </div>
+            <p style="font-size:13px;">Changed your mind? Log in within 30 days to cancel the deletion.</p>
+            <a href="index.html" style="color:var(--color-primary);font-size:14px;font-weight:600;text-decoration:none;">← Back to Snevva home</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER (injected by components/loader.js) -->
+<div id="footer-placeholder"></div>
+
+<script src="/components/DeleteAccount/deletescript.js"></script>
+<script src="/components/loader.js"></script>
+</body>
+</html>
