@@ -526,7 +526,7 @@ nav {
   text-decoration: none;
 }
 .pf-btn {
-  background: var(--gradient-primary);
+  background: black;
   color: #fff;
   font-size: 13px;
   font-weight: 600;
