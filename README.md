@@ -1,6 +1,10 @@
 # SnevvaWesite
 
-The official marketing website for **Snevva** — your calm, intelligent health companion. Built to showcase the app's features, health pillars, and drive downloads from the App Store and Google Play.
+Marketing website for **Snevva** — an AI-powered health companion app that brings sleep, nutrition, hydration, mood, and more into one intelligent, calming experience.
+
+## Overview
+
+This is the public-facing landing site for Snevva, built to introduce the app, showcase its features, and drive downloads on the App Store and Google Play.
 
 🔗 Live site: [snevva.netlify.app](https://snevva.netlify.app/)
 
@@ -8,23 +12,26 @@ The official marketing website for **Snevva** — your calm, intelligent health 
 <img width="1892" height="960" alt="image" src="https://github.com/user-attachments/assets/5265859b-136e-41bf-9c88-36153db82018" />
 <img width="1838" height="952" alt="image" src="https://github.com/user-attachments/assets/8ade7092-df4c-4c6d-bab4-4127645687ed" />
 
-
-## Overview
-
-Snevva helps people track, understand, and improve every dimension of their wellness — sleep, nutrition, hydration, mood, cycle, medications, vitals, and activity — through an AI-powered companion (Elly). This site is the public-facing landing page for the product.
-
 ## Sections
 
-- **Navbar** — Logo, links to Features / How it Works / Health Pillars / Reviews, and a "Get Started" CTA.
-- **Hero** — "Your health, understood." headline with app store badges (App Store / Google Play), trust signals (HIPAA-safe data, 4.9 rating, 50k+ users), and a phone mockup showing the live app dashboard (steps, sleep, hydration, heart rate, AI insights).
-- **Health Pillars** — "Every dimension of your wellness" grid covering Sleep, Nutrition, Hydration, Activity, Mood, Cycle, Medications, and Vitals, each with an icon and short description.
-- **CTA Banner** — "Your healthiest self starts here." with "Download the app" / "Learn more" buttons and store badges, plus join-count social proof (50,000+ users).
-- **Footer** — Brand blurb, and link columns for Product (Features, Health Pillars, AI Insights, Pricing), Company (About, Blog, Careers, Press), and Support (Help Centre, Privacy, Terms, Contact).
+- **Navbar** — Features, How it works, Health Pillars, Reviews, and a "Get Started" CTA.
+- **Hero** — "Your health, understood." headline with social proof (4.9 rating, 50k+ users, HIPAA-safe data badge) alongside a phone mockup of the app dashboard featuring Elly, the AI health companion.
+- **Get Started / Signup Banner** — "Your healthiest self starts here." section with 50,000+ user social proof, "Download the app" / "Learn more" CTAs, and App Store / Google Play badges.
+- **Health Pillars Grid** — 8 feature cards covering the dimensions of wellness Snevva tracks:
+  - Sleep — deep sleep, REM, and restfulness tracking
+  - Nutrition — meal, macro, and nutritional balance logging
+  - Hydration — smart water reminders and intake monitoring
+  - Activity — steps, workouts, and calories in one timeline
+  - Mood — daily check-ins and emotional trend analytics
+  - Cycle — period & hormonal tracking with compassionate insights
+  - Medications — reminders, logs, and adherence tracking
+  - Vitals — heart rate, blood pressure, and more
+- **Footer** — Brand blurb plus Product / Company / Support link columns.
 
 ## Tech Stack
 
-- React
-- (Add: styling approach — Tailwind/CSS Modules, hosting via Netlify)
+- (Add your framework — e.g. React/Next.js, Tailwind CSS, etc.)
+- Deployed at: (add production URL)
 
 ## Getting Started
 
@@ -44,10 +51,8 @@ npm install
 ### Running Locally
 
 ```bash
-npm start
+npm run dev
 ```
-
-The site will be available at `http://localhost:3000`.
 
 ### Build for Production
 
@@ -55,30 +60,17 @@ The site will be available at `http://localhost:3000`.
 npm run build
 ```
 
-## Deployment
+## Related
 
-Deployed on [Netlify](https://snevva.netlify.app/). Pushes to the main branch trigger an automatic build and deploy.
-
-## Project Structure
-
-```
-src/
-├── components/       # Navbar, Hero, HealthPillars, CTA, Footer, etc.
-├── assets/           # Images, icons, app store badges
-└── App.js
-```
+- **Snevva App** — the companion Flutter mobile app (frontend) with an ASP.NET Core backend, which this website promotes.
 
 ## Roadmap
 
-- [ ] "How it works" section content
-- [ ] Reviews/testimonials section
-- [ ] Pricing page
-- [ ] Blog integration
+- [ ] Wire up "Get Started" / "Download the app" to real App Store & Google Play links
+- [ ] Add real testimonials to the Reviews section
+- [ ] Pricing page content
+- [ ] Blog / Careers / Press pages under Company
 
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-© Snevva. All rights reserved.
